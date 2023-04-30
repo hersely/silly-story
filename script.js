@@ -13,7 +13,7 @@ const insertZ = ['spontaneously combusted', 'melted into a puddle on the sidewal
 
 let storyText = `It was 94 fahrenheit outside, so ${randomValueFromArray(insertX)} went for a walk. When they got to ${randomValueFromArray(insertY)}, they stared in horror for a few moments, then ${randomValueFromArray(insertZ)}. Bob saw the whole thing, but was not surprised — ${randomValueFromArray(insertX)} weighs 300 pounds, and it was a hot day.`;
 
-function convertFahrenheitToCelsius(temperature) {
+function convertFahrenheitToCelsius(temperature){
   return Math.round((temperature - 32) * (5/9));
 }
 
